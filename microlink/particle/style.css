@@ -1,0 +1,61 @@
+html {
+    background: #1e1a20;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)), url(img.jpg);
+    background: linear-gradient(rgba(0, 0, 100, 0.5), rgba(79, 79, 107, 0.5)), url(img/01.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 20px;
+    transition: 0.5s;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding-right: 42px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 32px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #ffeded;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+    will-change: transform;
+}
+
+section:nth-child(odd) {
+    justify-content: flex-end;
+}
